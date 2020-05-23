@@ -14,7 +14,7 @@ int main(void)
 	cout << i << ' ' << l << ' ' << f << ' ' << d << ' ' << endl;
 	cout << cpp << " is better than " << c << endl;
 	cin >> i;
-	cout << "ÀÔ·ÂÇÑ °ªÀº " << i << " ÀÔ´Ï´Ù.\n" << flush;
+	cout << "Ã€Ã”Â·Ã‚Ã‡Ã‘ Â°ÂªÃ€Âº " << i << " Ã€Ã”Â´ÃÂ´Ã™.\n" << flush;
 
 
 
