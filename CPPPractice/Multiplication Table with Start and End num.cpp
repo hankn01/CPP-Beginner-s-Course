@@ -12,6 +12,8 @@ if(s>9||s<2||e>9||e<2)
 {
 	cout<<"INPUT ERROR!";
 }
+else
+{
 if(s<=e)
 {
 for(i=s;i<e+1;i++)
@@ -30,6 +32,7 @@ else
 	{
 		cout<<i<<" * "<<j<<" = "<<" "<<i*j<<endl;
 	}
+}
 }
 }
 return 0;
