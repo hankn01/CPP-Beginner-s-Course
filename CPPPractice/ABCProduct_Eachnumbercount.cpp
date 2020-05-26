@@ -7,29 +7,28 @@ int main(void)
 	int product;
 	int count[10] = {0};
 	int i;
-	int k;//º¯¼ö ¼±¾ğ 
+	int k;//ë³€ìˆ˜ ì„ ì–¸ 
 	
-	cin>>n1;//°ª ÀÔ·Â 
+	cin>>n1;//ê°’ ì…ë ¥ 
 	cin>>n2;
 	cin>>n3;
-	product = n1 * n2 * n3;//°ª °öÇÏ±â    
+	product = n1 * n2 * n3;//ê°’ ê³±í•˜ê¸°    
 	while(1)
 	{
-		 if(product/10 == 0)//³ª´°¼À Á¾·á ÁöÁ¡ 
+		 if(product/10 == 0)//ë‚˜ëˆ—ì…ˆ ì¢…ë£Œ ì§€ì  
 		 {
 			count[product] = count[product] + 1;
 			break; 
 		 }
-		k = product % 10;// ³ª¸ÓÁö·Î Ä«¿îÆ® ¿Ã¸®±â      
+		k = product % 10;// ë‚˜ë¨¸ì§€ë¡œ ì¹´ìš´íŠ¸ ì˜¬ë¦¬ê¸°      
 		count[k] = count[k] + 1;
-		product = product / 10; //ÀÚ¸´¼ö¸¦ ÀÌµ¿ÇÏ¸é¼­ °è¼Ó ÁøÇà  
+		product = product / 10; //ìë¦¿ìˆ˜ë¥¼ ì´ë™í•˜ë©´ì„œ ê³„ì† ì§„í–‰  
 	
 	}
 	
-	for(i=0;i<=9;i++)// °á°ú°ª Ãâ·Â    
+	for(i=0;i<=9;i++)// ê²°ê³¼ê°’ ì¶œë ¥    
 	{
 		cout<<count[i]<<endl;
 	}
-	
 	return 0;
 }
